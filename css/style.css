@@ -119,6 +119,21 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+h1 {
+  font-size: 25px;
+  text-align: left;
+  box-sizing: content-box;
+  padding-bottom: 15px; }
+
+h3 {
+  color: red;
+  padding-top: 20px; }
+
+p {
+  padding-top: 15px;
+  font-size: 18px;
+  padding-right: 15px; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -274,3 +289,6 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-colours {
       padding: 20rem 0 10rem 0; } }
+
+.grid-system {
+  background-color: #0e1414; }

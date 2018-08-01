@@ -2,7 +2,8 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 40rem;
+  height: 50rem;
+
   &__side {
     height: 40rem;
     transition: all .8s ease;
@@ -16,7 +17,7 @@
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     &--front {
-      background-color: $color-white;
+      background-color: $color-grey-dark;
     }
     &--back {
       transform: rotateY(180deg);
@@ -41,7 +42,7 @@
   // FRONT SIDE STYLING
   &__picture {
     background-size: cover;
-    height: 40rem;
+    height: 30rem;
     background-blend-mode: screen;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -61,5 +62,21 @@
         url(../img/white_spoon.jpg);
     }
 }
+&__details {
+  padding: 1rem;
+
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+      p {
+          text-align: center;
+          font-size: 1.5rem;
+          
+      }
+  }
+
+
 
 }
